@@ -8,7 +8,11 @@ import {
   Input,
   InputGroup,
   InputRightAddon,
+  Button,
 } from '@chakra-ui/react';
+import { LoginButton } from './login-button';
+import { LogoutButton } from './logout-button';
+import { ProfileCover } from './profile-cover';
 
 const Navbar = () => {
   return (
@@ -44,7 +48,9 @@ const Navbar = () => {
         />
       </InputGroup>
       <Spacer />
-      <Image src="profile.svg" alt="Profile photo" w={9} />
+      <ProfileCover />
+      <LoginButton />
+      <LogoutButton />
     </Flex>
   );
 };

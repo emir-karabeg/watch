@@ -1,7 +1,7 @@
 import { Flex } from '@chakra-ui/react';
-import MainContent from '../components/main-content';
-import Navbar from '../components/navbar';
-import Sidebar from '../components/sidebar';
+import MainContent from '../src/components/main-content';
+import Navbar from '../src/components/navbar';
+import Sidebar from '../src/components/sidebar';
 
 const Home = () => {
   return (
